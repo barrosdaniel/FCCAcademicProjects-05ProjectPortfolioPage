@@ -5,25 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Francois+One|Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.0/dist/semantic.min.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <title>Daniel Barros - Web Development</title>
 </head>
 <body>
 <div id="container">
-
     <section id="welcome-section">
         <div id="welcome-text">
             <h1 id="header">Daniel Barros</h1>
             <h2 id="subheader" >Web Developer</h2>
         </div>
     </section>
-
     <nav id="navbar">
         <!--Flex container  -->
         <a class="navbar-link" href="#projects">Projects</a>
         <a class="navbar-link" href="#contacts">Contacts</a>
     </nav>
-
     <section id="projects">
         <h1 class="section-header">Featured Projects</h1>
         <div id="projects-container">
@@ -43,7 +41,6 @@
                 </div>
                 </a>
             </div>
-
             <div class="project-tile">
                 <a href="#" target="_blank">
                 <img class="project-tile-image" src="images/Project2.png" alt="Project 2 screenshot">
@@ -58,7 +55,6 @@
                 </div>
                 </a>
             </div>
-
             <div class="project-tile">
                 <a href="#" target="_blank">
                 <img class="project-tile-image" src="images/Project3.png" alt="Project 3 screenshot">
@@ -74,46 +70,42 @@
                 </div>
                 </a>
             </div>
-
             <div class="project-tile">
-                    <a href="#" target="_blank">
-                    <img class="project-tile-image" src="images/Project4.png" alt="Project 3 screenshot">
-                    <div class="project-tile-text">
-                        <h4><b>Documentation Page Project</b></h4>
-                        <p>Main Skills:</p>
-                        <ul>
-                            <li>Static webpage</li>
-                            <li>Responsive Design</li>
-                            <li>Sidebar Design</li>
-                            <li>Content editing</li>
-                        </ul>
-                    </div>
-                    </a>
+                <a href="#" target="_blank">
+                <img class="project-tile-image" src="images/Project4.png" alt="Project 3 screenshot">
+                <div class="project-tile-text">
+                    <h4><b>Documentation Page Project</b></h4>
+                    <p>Main Skills:</p>
+                    <ul>
+                        <li>Static webpage</li>
+                        <li>Responsive Design</li>
+                        <li>Sidebar Design</li>
+                        <li>Content editing</li>
+                    </ul>
                 </div>
-            
-        
-        
+                </a>
+            </div>
         </div>
-
         <div id="isolate-button">
-            <button class="button"> 
-                <a id="profile-link" href="https://github.com/barrosdaniel" target="_blank">Show all</a>
-            </button>
+            <a id="profile-link" href="https://github.com/barrosdaniel" target="_blank">
+                <button class="button">Show all</button>
+            </a>
         </div>
-
     </section>
-        
     <section id="contacts">
         <h1 class="section-header">Contacts</h1>
-        <a id="profile-link" href="https://github.com/barrosdaniel">Github</a>
+        <div class="contacts-container">
+            <a id="profile-link" href="https://github.com/barrosdaniel"><i class="github square icon"></i></a>
+            <a id="profile-link" href="https://www.linkedin.com/in/daniel-barros-9403a7b2/"><i class="linkedin icon"></i></a>
+            <a id="profile-link" href="https://codepen.io/danielbarros/"><i class="codepen icon"></i></a>
+            <a id="profile-link" href="https://www.facebook.com/profile.php?id=1337257008"><i class="facebook square icon"></i></a>
+            <a id="profile-link" href="mailto:barros.daniel@outlook.com"><i class="envelope square icon"></i></a>
+        </div>
     </section>
-
     <footer>
         <p>Copyright &copy; 2018 Daniel Barros. All rights reserved.</p>
     </footer>
-        
 </div>
-        
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
